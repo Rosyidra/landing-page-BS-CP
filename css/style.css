@@ -1,0 +1,80 @@
+body {
+    margin-top: 56px;
+    
+}
+
+.jumbotron {
+    background-color: aquamarine;
+}
+
+.background-header
+{
+  background-image:url("../img/banner2.jpg");
+  background-color: #fafbfc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #000000 1px 1px;
+}
+.btn-primary  {
+    text-shadow: none;
+}
+
+.btn-secondary {
+    text-shadow: none;
+}
+
+.service-style
+{
+    margin-top: 15px;
+    background-color: #fafbfc;
+}
+
+.text-green
+{
+   color:#0b9b6b;
+}
+
+h2:before,
+h2:after {
+ background-color: #0b9b6b;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 25%;
+}
+h2:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h2:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.button-sekunder {
+          background-color: transparent;
+          border-color: #dbdbdb;
+          color: #0b9b6b;
+      } 
+  .button-sekunder:hover {
+          background-color: #0b9b6b;
+          border-color: #dbdbdb;
+          color: #fff;
+      }
+
+.cover 
+{
+  background: no-repeat center/cover;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
